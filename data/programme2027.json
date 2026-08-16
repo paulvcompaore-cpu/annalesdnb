@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "session": 2027,
+    "source": "Eduscol / Bulletins officiels Éducation nationale",
+    "note_importante": "À partir du DNB 2027 : épreuves sur programmes de 3e uniquement. Les annales 2020-2026 restent utiles pour l'entraînement, avec un périmètre légèrement plus large."
+  },
+  "matieres": [
+    {
+      "id": "francais",
+      "nom": "Français",
+      "couleur": "#C0392B",
+      "emoji": "📖",
+      "duree_epreuve": "3 heures",
+      "coefficient": 2,
+      "note_sur": "20 (total 100 pts ramené sur 20)",
+      "structure_epreuve": [
+        { "partie": "Travail sur le texte (Partie 1)", "points": 50, "description": "Compréhension, interprétation, grammaire et compétences linguistiques sur un texte littéraire (avec éventuellement une image)" },
+        { "partie": "Dictée (Partie 2)", "points": 10, "description": "Texte de 100 à 150 mots. Pénalité par faute." },
+        { "partie": "Rédaction (Partie 3)", "points": 40, "description": "Écrire un texte narratif, argumentatif ou créatif selon un sujet donné" }
+      ],
+      "chapitres": [
+        {
+          "titre": "Lire — Comprendre et interpréter",
+          "notions": [
+            "Lecture d'un texte littéraire (roman, nouvelle, récit)",
+            "Lecture d'une œuvre de théâtre",
+            "Lecture d'un poème",
+            "Lecture d'une image fixe (photo, tableau, illustration)",
+            "Identification du narrateur, du point de vue, du registre",
+            "Repérage des procédés stylistiques : métaphore, comparaison, antithèse, hyperbole",
+            "Analyse du sens implicite et explicite"
+          ]
+        },
+        {
+          "titre": "Écrire — Produire des textes",
+          "notions": [
+            "Rédaction narrative (récit cohérent, structure chronologique)",
+            "Rédaction argumentative (thèse, arguments, exemples)",
+            "Rédaction descriptive",
+            "Respect des consignes d'écriture (type de texte, longueur, registre)",
+            "Réécriture selon une consigne grammaticale (changement de temps, de personne...)"
+          ]
+        },
+        {
+          "titre": "Langue française — Grammaire et orthographe",
+          "notions": [
+            "Analyse grammaticale : nature et fonction des mots",
+            "Propositions subordonnées (relative, conjonctive, infinitive, participiale)",
+            "Conjugaison : tous les temps (présent, imparfait, passé simple, futur, conditionnel, subjonctif)",
+            "Accord du participe passé (être, avoir, pronominal)",
+            "Accord du verbe avec le sujet (cas complexes)",
+            "Ponctuation et orthographe lexicale",
+            "Figures de style (identification et effet)",
+            "Champ lexical, champ sémantique",
+            "Registres de langue (familier, courant, soutenu)"
+          ]
+        },
+        {
+          "titre": "Culture littéraire et artistique",
+          "notions": [
+            "Œuvres littéraires du programme (roman, théâtre, poésie — à identifier avec le professeur de l'établissement)",
+            "Grands genres littéraires et leurs caractéristiques",
+            "Repères historiques de la littérature française",
+            "Lecture d'image : vocabulaire spécifique (plan, cadrage, composition, couleurs)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "nom": "Mathématiques",
+      "couleur": "#1A5276",
+      "emoji": "📐",
+      "duree_epreuve": "2 heures",
+      "coefficient": 2,
+      "note_sur": "20",
+      "note_programme": "Programme cycle 4 en vigueur pour le DNB 2027. Le nouveau programme de maths 3e (BO mars 2026) n'entre en vigueur en 3e qu'en septembre 2028.",
+      "structure_epreuve": [
+        { "partie": "Partie 1 — Automatismes (sans calculatrice)", "points": "~30 pts", "duree": "30 min", "description": "Questions courtes sur les réflexes fondamentaux" },
+        { "partie": "Partie 2 — Exercices (avec calculatrice)", "points": "~70 pts", "duree": "1h30", "description": "4 à 5 exercices variés couvrant les domaines du programme" }
+      ],
+      "chapitres": [
+        {
+          "titre": "Nombres et calculs",
+          "notions": [
+            "Calcul littéral : développement, factorisation (distributivité simple et double)",
+            "Identités remarquables : (a+b)² = a²+2ab+b², (a-b)² = a²-2ab+b², (a+b)(a-b) = a²-b²",
+            "Équations du 1er degré à une inconnue",
+            "Systèmes d'équations du 1er degré à deux inconnues",
+            "Inéquations du 1er degré",
+            "Puissances entières relatives (exposants positifs et négatifs)",
+            "Notation scientifique",
+            "Racines carrées (simplification, calcul)",
+            "Fractions : opérations, simplification, comparaison",
+            "Arithmétique : PGCD, multiples, diviseurs, nombres premiers",
+            "Proportionnalité et pourcentages"
+          ]
+        },
+        {
+          "titre": "Fonctions",
+          "notions": [
+            "Notion de fonction, image et antécédent",
+            "Fonctions linéaires : f(x) = ax (représentation, coefficient)",
+            "Fonctions affines : f(x) = ax + b (représentation, pente, ordonnée à l'origine)",
+            "Lecture graphique : image, antécédent, variations",
+            "Résolution graphique d'équations et d'inéquations",
+            "Tableau de valeurs et représentation graphique"
+          ]
+        },
+        {
+          "titre": "Géométrie",
+          "notions": [
+            "Théorème de Pythagore et sa réciproque",
+            "Théorème de Thalès (deux configurations : direct et réciproque)",
+            "Trigonométrie dans le triangle rectangle : sinus, cosinus, tangente",
+            "Triangles semblables (angles égaux, rapports de côtés)",
+            "Translations, rotations, symétries (axiale et centrale)",
+            "Homothéties (rapport, image d'une figure)",
+            "Droites : parallélisme, perpendicularité, médiatrice",
+            "Cercles : propriétés, tangente, angle inscrit",
+            "Géométrie dans l'espace : représentation de solides",
+            "Sections de solides (cube, cylindre, cône, pyramide)",
+            "Agrandissement et réduction de figures"
+          ]
+        },
+        {
+          "titre": "Grandeurs et mesures",
+          "notions": [
+            "Aires des figures usuelles (triangle, cercle, trapèze, disque)",
+            "Volumes : sphère (4/3 πr³), cylindre (πr²h), cône (1/3 πr²h), pyramide, pavé",
+            "Périmètres et longueurs (dont longueur d'arc de cercle)",
+            "Conversions d'unités (longueurs, aires, volumes, durées, angles)",
+            "Vitesse, distance, durée"
+          ]
+        },
+        {
+          "titre": "Statistiques et probabilités",
+          "notions": [
+            "Tableaux de données, diagrammes (barres, circulaires, histogrammes)",
+            "Indicateurs de position : moyenne, médiane, quartiles (Q1, Q2, Q3)",
+            "Indicateurs de dispersion : étendue, écart interquartile",
+            "Probabilités : calcul de probabilités d'événements simples et composés",
+            "Expériences aléatoires : tableaux à double entrée, arbres de probabilités",
+            "Loi des grands nombres (approche intuitive)",
+            "Fluctuation d'échantillonnage"
+          ]
+        },
+        {
+          "titre": "Algorithmique et programmation",
+          "notions": [
+            "Lecture et écriture d'un algorithme simple (variables, affectation)",
+            "Structures conditionnelles (si / sinon)",
+            "Boucles (pour, tant que)",
+            "Programmation Scratch : blocs, boucles, conditions, variables",
+            "Simulation d'expériences aléatoires par programme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hg-emc",
+      "nom": "Histoire-Géographie EMC",
+      "couleur": "#1A6B3A",
+      "emoji": "🌍",
+      "duree_epreuve": "2 heures",
+      "coefficient": 2,
+      "note_sur": "20 (HG : coeff 1,5 / EMC : coeff 0,5)",
+      "structure_epreuve": [
+        { "partie": "Histoire-Géographie", "points": "30 pts (ramenés sur 15)", "description": "Question de réflexion argumentée + analyse de document(s)" },
+        { "partie": "EMC", "points": "10 pts (ramenés sur 5)", "description": "Courte réflexion ou analyse de document sur un enjeu civique" }
+      ],
+      "chapitres": [
+        {
+          "titre": "HISTOIRE — Thème 1 : L'Europe, un théâtre majeur des guerres totales (1914-1945)",
+          "notions": [
+            "La Première Guerre mondiale : guerre des tranchées, mobilisation civile et économique",
+            "Les violences de masse et le génocide des Arméniens",
+            "La paix de 1919 (traités, nouvelles frontières, Société des Nations)",
+            "Les crises économiques des années 1920-1930",
+            "Les régimes totalitaires : URSS stalinienne, Italie fasciste, Allemagne nazie",
+            "La Seconde Guerre mondiale : phases du conflit, alliances",
+            "L'occupation en France et la Résistance",
+            "Le génocide des Juifs et des Tziganes (Shoah)",
+            "La Libération et la fin de la guerre (1944-1945)"
+          ]
+        },
+        {
+          "titre": "HISTOIRE — Thème 2 : Le monde depuis 1945",
+          "notions": [
+            "La Guerre froide (1947-1991) : blocs, crises (Berlin, Cuba, Corée, Vietnam)",
+            "La décolonisation (Inde, Algérie, Afrique subsaharienne) et ses enjeux",
+            "La construction du Tiers-Monde (conférence de Bandung 1955)",
+            "La fin de la Guerre froide : chute du mur de Berlin (1989), dissolution de l'URSS (1991)",
+            "Le monde depuis 1991 : multipolarité, mondialisation, nouveaux conflits"
+          ]
+        },
+        {
+          "titre": "HISTOIRE — Thème 3 : Françaises et Français dans une République repensée",
+          "notions": [
+            "La Libération et la IVe République (1944-1958)",
+            "La Ve République : naissance, institutions, présidents",
+            "La société française depuis 1945 : baby-boom, trente glorieuses, immigration",
+            "L'émancipation des femmes (droit de vote 1944, loi Veil 1975, parité...)",
+            "La construction européenne (CECA, CEE, Union européenne)",
+            "La France dans le monde : rôle international, décolonisation"
+          ]
+        },
+        {
+          "titre": "GÉOGRAPHIE — Thème 1 : L'urbanisation du monde",
+          "notions": [
+            "La croissance urbaine dans le monde (métropolisation)",
+            "Les espaces urbains : centres, périphéries, banlieues, espaces ruraux",
+            "Les mégalopoles et métropoles mondiales",
+            "Les inégalités dans les villes (ségrégation, bidonvilles)",
+            "Mobilités et transports dans les espaces urbains"
+          ]
+        },
+        {
+          "titre": "GÉOGRAPHIE — Thème 2 : Les territoires dans la mondialisation",
+          "notions": [
+            "La mondialisation : flux, acteurs, réseaux",
+            "Les espaces productifs (agricoles, industriels, tertiaires, touristiques)",
+            "Les inégalités mondiales de développement",
+            "La France dans la mondialisation",
+            "Les grandes puissances et pôles de la mondialisation (États-Unis, Europe, Asie)"
+          ]
+        },
+        {
+          "titre": "GÉOGRAPHIE — Thème 3 : La France et l'Europe dans le monde",
+          "notions": [
+            "Les dynamiques territoriales de la France (espaces urbains, ruraux, littoraux, montagnards)",
+            "Les outre-mer français",
+            "L'Union européenne : territoire, institutions, politiques communes",
+            "L'aménagement du territoire français (ZAC, décentralisation, intercommunalité)"
+          ]
+        },
+        {
+          "titre": "EMC — Programme 2026-2027 : «Faire vivre la démocratie»",
+          "notions": [
+            "Chapitre 1 — Les règles du jeu démocratique : institutions de la Ve République, séparation des pouvoirs, élections, État de droit",
+            "Chapitre 2 — Opinion et information : liberté de la presse, pluralisme, éducation aux médias, lutte contre la désinformation",
+            "Chapitre 3 — L'engagement collectif : associations, partis politiques, syndicats, service civique, bénévolat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sciences",
+      "nom": "Sciences (SVT + Physique-Chimie + Technologie)",
+      "couleur": "#6C3483",
+      "emoji": "🔬",
+      "duree_epreuve": "1 heure",
+      "coefficient": 1,
+      "note_sur": "20",
+      "note_programme": "⚠️ 2 disciplines parmi 3 (SVT, Physique-Chimie, Technologie) sont tirées au sort 2 mois avant l'examen. Impossible de prévoir lesquelles. Réviser les 3.",
+      "chapitres": [
+        {
+          "titre": "SVT — Thème 1 : Diversité et stabilité génétiques",
+          "notions": [
+            "ADN : structure, rôle, localisation dans la cellule",
+            "Chromosomes et caryotype humain (23 paires)",
+            "Méiose et fécondation : maintien du nombre de chromosomes",
+            "Mutations génétiques : causes, conséquences, réparation",
+            "Hérédité : caractères héréditaires, gènes, allèles, phénotype/génotype",
+            "Maladies génétiques héréditaires"
+          ]
+        },
+        {
+          "titre": "SVT — Thème 2 : Évolution des êtres vivants",
+          "notions": [
+            "Sélection naturelle : définition, mécanismes (Darwin)",
+            "Preuves de l'évolution : fossiles, homologies anatomiques, ADN",
+            "Biodiversité : définition, niveaux, menaces humaines",
+            "Brassage génétique et diversité des individus"
+          ]
+        },
+        {
+          "titre": "SVT — Thème 3 : Corps humain, santé et comportements",
+          "notions": [
+            "Systèmes musculaire et osseux : fonctionnement coordonné (sport)",
+            "Système nerveux : influx nerveux, arc réflexe, cerveau",
+            "Puberté, reproduction humaine, contraception",
+            "Addictions : alcool, tabac, drogues — mécanismes et risques",
+            "Alimentation et santé (nutriments, apports énergétiques)"
+          ]
+        },
+        {
+          "titre": "SVT — Thème 4 : Responsabilité humaine, environnement et développement durable",
+          "notions": [
+            "Impact humain sur les écosystèmes : pollution, déforestation, espèces invasives",
+            "Réchauffement climatique : causes (gaz à effet de serre), conséquences",
+            "Développement durable : définition, exemples concrets",
+            "Ressources naturelles : eau, sol, énergie — gestion durable"
+          ]
+        },
+        {
+          "titre": "PHYSIQUE-CHIMIE — Thème 1 : Organisation et transformation de la matière",
+          "notions": [
+            "Structure de l'atome : proton, neutron, électron",
+            "Tableau périodique : éléments, familles, périodes",
+            "Ions : formation, charge, notation",
+            "Molécules : représentation (Lewis), formule brute et développée",
+            "Réactions chimiques : équation bilan, conservation de la masse et des atomes",
+            "Réactions d'oxydo-réduction (oxydant, réducteur)",
+            "pH et solutions acides/basiques (ions H⁺ et OH⁻)"
+          ]
+        },
+        {
+          "titre": "PHYSIQUE-CHIMIE — Thème 2 : Électricité",
+          "notions": [
+            "Circuits électriques en série et en parallèle",
+            "Loi d'Ohm : U = R × I",
+            "Lois de Kirchhoff (tension et intensité)",
+            "Puissance électrique : P = U × I",
+            "Énergie électrique : E = P × t (en Wh ou J)",
+            "Effets du courant électrique (Joule, magnétique, lumineux)"
+          ]
+        },
+        {
+          "titre": "PHYSIQUE-CHIMIE — Thème 3 : Mouvement et énergie",
+          "notions": [
+            "Vitesse et mouvements (uniforme, accéléré, décéléré)",
+            "Forces : représentation vectorielle, unité (Newton)",
+            "Principe d'inertie (1ère loi de Newton)",
+            "Pression (P = F/S), applications (hydrostatique)",
+            "Énergie cinétique, énergie potentielle, conservation de l'énergie",
+            "Énergie cinétique : Ec = ½ m v²"
+          ]
+        },
+        {
+          "titre": "PHYSIQUE-CHIMIE — Thème 4 : Ondes et signaux",
+          "notions": [
+            "La lumière : propagation rectiligne, vitesse, sources lumineuses",
+            "Réflexion et réfraction de la lumière",
+            "Spectre de la lumière blanche (dispersion, couleurs)",
+            "Ondes sonores : fréquence (Hz), amplitude, ultrason",
+            "Signaux numériques et analogiques",
+            "Transmission de l'information (codage binaire, fibres optiques)"
+          ]
+        },
+        {
+          "titre": "TECHNOLOGIE — Systèmes techniques et numériques",
+          "notions": [
+            "Structure d'un système technique : entrée, traitement, sortie",
+            "Fonctions techniques : communiquer, acquérir, traiter, mémoriser",
+            "Modélisation et simulation de systèmes (outils numériques)",
+            "Conception et réalisation : prototypage, fabrication numérique",
+            "Systèmes d'information : données, réseaux, protocoles",
+            "Programmation : algorithme, variables, boucles, conditions (Python ou Scratch)",
+            "Transition numérique et énergétique : enjeux, exemples"
+          ]
+        }
+      ]
+    }
+  ]
+}

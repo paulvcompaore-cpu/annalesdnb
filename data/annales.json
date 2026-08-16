@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated": "2026-08-16",
+    "derniere_validation": "2026-08-16",
+    "total": 0,
+    "note": "URLs marquées validated:false doivent être vérifiées par validate_links.py"
+  },
+  "sources_reference": {
+    "prepadnb": {
+      "nom": "PrépaDNB",
+      "url_base": "https://omidhsgzrozcvvknnurv.supabase.co",
+      "fiabilite": "haute",
+      "corriges": true
+    },
+    "apmep": {
+      "nom": "APMEP",
+      "url_base": "https://www.apmep.fr/Annales-du-Brevet-des-colleges",
+      "fiabilite": "haute",
+      "corriges": true
+    },
+    "mathsapiens": {
+      "nom": "Mathsapiens",
+      "url_base": "https://mathsapiens.fr/dnb.html",
+      "fiabilite": "haute",
+      "corriges": true
+    },
+    "grenoble": {
+      "nom": "Académie Grenoble",
+      "url_base": "https://lettres-pedagogie.web.ac-grenoble.fr/annales-du-dnb",
+      "fiabilite": "haute",
+      "corriges": true
+    },
+    "amiens": {
+      "nom": "Académie Amiens",
+      "url_base": "https://maths.ac-amiens.fr/065-annales-de-sujets-dnb.html",
+      "fiabilite": "haute",
+      "corriges": false
+    },
+    "letudiant": {
+      "nom": "L'Étudiant",
+      "url_base": "https://www.letudiant.fr/college/annales-du-brevet.html",
+      "fiabilite": "moyenne",
+      "corriges": true
+    },
+    "eduscol": {
+      "nom": "Éduscol (officiel)",
+      "url_base": "https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales",
+      "fiabilite": "haute",
+      "corriges": false
+    },
+    "geoconfluences": {
+      "nom": "Géoconfluences",
+      "url_base": "https://geoconfluences.ens-lyon.fr",
+      "fiabilite": "haute",
+      "corriges": false
+    },
+    "ac_lille": {
+      "nom": "Académie de Lille",
+      "url_base": "https://pedagogie.ac-lille.fr",
+      "fiabilite": "haute",
+      "corriges": false
+    },
+    "freemaths": {
+      "nom": "Freemaths",
+      "url_base": "https://www.freemaths.fr",
+      "fiabilite": "moyenne",
+      "corriges": true
+    },
+    "cafepedagogique": {
+      "nom": "Café Pédagogique",
+      "url_base": "https://www.cafepedagogique.net",
+      "fiabilite": "moyenne",
+      "corriges": false
+    },
+    "reactions_pelemele": {
+      "nom": "Réactions Pêle-Mêle",
+      "url_base": "https://reactions-pelemele.com",
+      "fiabilite": "moyenne",
+      "corriges": true
+    },
+    "groupe_reussite": {
+      "nom": "Groupe Réussite",
+      "url_base": "https://groupe-reussite.fr",
+      "fiabilite": "moyenne",
+      "corriges": true
+    }
+  },
+  "annales": [
+    {
+      "id": "FRANCAIS-2026-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2026,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782476156338_Sujet-DNB-2026-Metropole-Francais.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782920277054_correction_Correction-DNB-2026-Metropole-Francais%20%282%29.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2026-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2026,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782816399498_26GENMATME1.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782817111974_correction_Correction-DNB-2026-Metropole-Mathematiques.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2026-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2026,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782746415996_SHGEMCM1.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782750503846_correction_Correction-DNB-2026-Metropole-HG-EMC-Vichy-Morvan.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "SVT-2026-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2026,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782740711106_Sujet-DNB-2026-Metropole-Sciences-SVT.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782740712185_correction_Correction-DNB-2026-Metropole-Sciences-SVT.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2026-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2026,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782740681358_Sujet-DNB-2026-Metropole-Sciences-Physique-Chimie.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1782740682132_correction_Correction-DNB-2026-Metropole-Sciences-Physique-Chimie.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2025-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2025,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761901674023_dnb2025groupe1-tartuffe-2.pdf",
+        "https://lettres-pedagogie.web.ac-grenoble.fr/sites/default/files/Media/document/dnb2025groupe1-tartuffe.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786885359165_correction_Corrige_DNB_Francais_2025_Metropole_Tartuffe.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2025-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2025,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124430009_Brevet_Me_tropole_26_06_2025_FK.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124430518_correction_Corrige_Brevet_Metropole_26_06_2025_DV.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2025-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2025,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761914271690_25genhgemcme1_v3.pdf",
+        "https://geoconfluences.ens-lyon.fr/fichiers/examens-programmes-sujets/25genhgemcme1.pdf",
+        "https://pedagogie.ac-lille.fr/histoire-geographie/wp-content/uploads/sites/8/2025/06/25GENHGEMCME1.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761929904642_correction_correctionhgsujet09.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2025/metropole/sujet-et-correction/corrige/brevet-histoire-geographie-emc-metropole-2025-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "SVT-2025-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2025,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1762094037767_25genscmeag1%20sujet%2003.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2025/metropole/sujet-et-correction/brevet-sciences-metropole-2025-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786098985217_correction_Correction-DNB-2025-Metropole-SVT-Doryphores.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2025/metropole/sujet-et-correction/corrige/brevet-sciences-metropole-2025-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2025-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2025,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2025/metropole/sujet-et-correction/brevet-sciences-metropole-2025-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2025/metropole/sujet-et-correction/corrige/brevet-sciences-metropole-2025-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2024-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2024,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761906992825_dnb2024_-_berenice_racine_groupe_1.pdf",
+        "https://lettres-pedagogie.web.ac-grenoble.fr/sites/default/files/Media/document/dnb2024_-_la_chambre_des_officiers_dugain_metropole.pdf",
+        "https://lettres-pedagogie.web.ac-grenoble.fr/sites/default/files/Media/document/dnb2024_-_lecriture_ou_la_vie_semprun_metropole.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786886838264_correction_Corrige_DNB_Francais_2024_Metropole_Berenice.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2024-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2024,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "apmep",
+        "mathsapiens"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124538693_Brevet_Metropole_1_07_2024_DV.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124539062_correction_Corrige_brevet_Metropole_1_07_2024_DV.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2024-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2024,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "urls_sujets": [
+        "https://pedagogie.ac-lille.fr/histoire-geographie/wp-content/uploads/sites/8/2024/07/Sujet-DNB-2024-Me%CC%81tropole-session-de-juillet.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2024/metropole/sujet-et-correction/brevet-histoire-geographie-emc-metropole-2024-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2024/metropole/sujet-et-correction/corrige/brevet-histoire-geographie-emc-metropole-2024-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "SVT-2024-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2024,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1762094079832_24genscg11%20sujet%2006.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786099603244_correction_Correction-DNB-2024-Metropole-SVT-Paludisme.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2024-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2024,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761999833306_Piscine-et-equilibre-de-leau.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786529942132_correction_Corrige_DNB_Physique-Chimie_2024_Metropole_piscine-plongeon.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2023-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2023,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761900277615_sujet_2023_metropole_antilles_guyane.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761900278615_correction_1-elements_de_correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2023-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2023,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "apmep"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "apmep"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124675493_Brevet_Metropole_26_juin_2023_FK.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1767124675855_correction_Corrige_Brevevet_Metropole_26_06_2023_DV.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2023-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2023,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://www.cafepedagogique.net/wp-content/uploads/2023/06/DNB-2023-Hist-Geo.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2023/metropole/sujet-et-correction/brevet-histoire-geographie-emc-metropole-2023-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2023/metropole/sujet-et-correction/corrige/brevet-histoire-geographie-emc-metropole-2023-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "SVT-2023-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2023,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1762094148530_23genscmeag1%20sujet%2011.pdf",
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1762094170330_23genscg11%20sujet%2012.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786100246306_correction_Correction-DNB-2023-Metropole-SVT-Idotee-abeille-des-mers.pdf",
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786117546534_correction_Correction-DNB-2023-Metropole-SVT-El-Nino.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2023-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2023,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761999900237_Augmentation-du-niveau-marin.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1786530429303_correction_Corrige_DNB_Physique-Chimie_2023_Metropole_niveau-marin.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2022-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2022,
+      "session": "Métropole",
+      "sources_sujets": [
+        "prepadnb",
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "prepadnb",
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761901252364_2022_metropole_gil_blas.pdf",
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761901157559_2022_metropole_-_le_lion_et_le_moucheron.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761901254267_correction_2022_corrige_gil_blas.pdf",
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761901158825_correction_dnb_juin_note_de_linspection_a_lintention_des_professeurs_correcteurs.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2022-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2022,
+      "session": "Métropole",
+      "sources_sujets": [
+        "apmep",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "apmep"
+      ],
+      "urls_sujets": [
+        "https://www.apmep.fr/IMG/pdf/Brevet_metro_juin_2022_DV.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.apmep.fr/IMG/pdf/corrige_brevet_metropole_30_06_2022_cp-2.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2022-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2022,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "letudiant"
+      ],
+      "urls_sujets": [
+        "https://pedagogie.ac-lille.fr/histoire-geographie/wp-content/uploads/sites/8/2022/09/Metropole-session-septembre-2022.pdf",
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2022/metropole/sujet-et-correction/brevet-histoire-geographie-emc-metropole-2022-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/histoire-geographie-emc/annees/annee-2022/metropole/sujet-et-correction/corrige/brevet-histoire-geographie-emc-metropole-2022-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "SVT-2022-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2022,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2022/metropole/sujet-et-correction/brevet-sciences-metropole-2022-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2022/metropole/sujet-et-correction/corrige/brevet-sciences-metropole-2022-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide",
+      "note": "Corrigé non confirmé pour 2022 SVT"
+    },
+    {
+      "id": "PC-2022-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2022,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2022/metropole/sujet-et-correction/brevet-sciences-metropole-2022-sujet.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.freemaths.fr/sujets-dnb-college/brevet-serie-generale/sciences/annees/annee-2022/metropole/sujet-et-correction/corrige/brevet-sciences-metropole-2022-correction.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2021-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2021,
+      "session": "Métropole",
+      "sources_sujets": [
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761900937248_2021_metropole_le_capitaine_fracasse.pdf"
+      ],
+      "urls_corriges": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761900984998_correction_2021_corrige_capitaine_fracasse.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "MATHS-2021-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2021,
+      "session": "Métropole",
+      "sources_sujets": [
+        "apmep",
+        "amiens"
+      ],
+      "sources_corriges": [
+        "apmep"
+      ],
+      "urls_sujets": [
+        "https://www.apmep.fr/IMG/pdf/brevet_metropole_28_06_2021_dv.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.apmep.fr/IMG/pdf/corrige_brevet_metropole_28_06_2021_ol.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2021-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2021,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://pedagogie.ac-lille.fr/histoire-geographie/wp-content/uploads/sites/8/2021/06/Metropole.pdf"
+      ],
+      "urls_corriges": [],
+      "corriges_disponibles": false,
+      "status": "partiel"
+    },
+    {
+      "id": "SVT-2021-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2021,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/brevet-sujet-sciences-metropole-general-2021.pdf"
+      ],
+      "urls_corriges": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/Correction-brevet-PC-metropole-general-2021-blog.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2021-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2021,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/brevet-sujet-sciences-metropole-general-2021.pdf"
+      ],
+      "urls_corriges": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/Correction-brevet-PC-metropole-general-2021-blog.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "FRANCAIS-2020-METROPOLE",
+      "matiere": "Français",
+      "matiere_code": "francais",
+      "annee": 2020,
+      "session": "Métropole",
+      "sources_sujets": [
+        "grenoble",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "grenoble"
+      ],
+      "urls_sujets": [
+        "https://omidhsgzrozcvvknnurv.supabase.co/storage/v1/object/public/sujets/1761907628384_2020_metropole_pourceaugnac.pdf",
+        "https://lettres-pedagogie.web.ac-grenoble.fr/sites/default/files/Media/document/2020_metropole_pourceaugnac.pdf"
+      ],
+      "urls_corriges": [],
+      "corriges_disponibles": false,
+      "status": "partiel",
+      "note": "Session maintenue malgré le COVID-19"
+    },
+    {
+      "id": "MATHS-2020-METROPOLE",
+      "matiere": "Mathématiques",
+      "matiere_code": "maths",
+      "annee": 2020,
+      "session": "Métropole",
+      "sources_sujets": [
+        "apmep",
+        "letudiant"
+      ],
+      "sources_corriges": [
+        "apmep"
+      ],
+      "urls_sujets": [
+        "https://www.apmep.fr/IMG/pdf/brevet_metropole_sept_2020_dv-2.pdf"
+      ],
+      "urls_corriges": [
+        "https://www.apmep.fr/IMG/pdf/corrige_brevet_metropole_sept_2020_dv.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "HG-EMC-2020-METROPOLE",
+      "matiere": "Histoire-Géo EMC",
+      "matiere_code": "hg-emc",
+      "annee": 2020,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [],
+      "urls_corriges": [],
+      "corriges_disponibles": false,
+      "status": "manquant"
+    },
+    {
+      "id": "SVT-2020-METROPOLE",
+      "matiere": "SVT",
+      "matiere_code": "sciences",
+      "annee": 2020,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://groupe-reussite.fr/ressources/wp-content/uploads/Annales/brevet/sujet-brevet-sciences-2020-metropole.pdf",
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/brevet-sujet-rattrapage-sciences-metropole-general-2020.pdf"
+      ],
+      "urls_corriges": [
+        "https://groupe-reussite.fr/ressources/wp-content/uploads/Annales/brevet/corrige-brevet-sciences-2020-metropole.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    },
+    {
+      "id": "PC-2020-METROPOLE",
+      "matiere": "Physique-Chimie",
+      "matiere_code": "sciences",
+      "annee": 2020,
+      "session": "Métropole",
+      "sources_sujets": [
+        "letudiant"
+      ],
+      "sources_corriges": [],
+      "urls_sujets": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/brevet-sujet-rattrapage-sciences-metropole-general-2020.pdf"
+      ],
+      "urls_corriges": [
+        "https://reactions-pelemele.com/wp-content/uploads/2023/01/Correction-brevet-PC-metropole-general-rattrapage-2020-blog.pdf"
+      ],
+      "corriges_disponibles": true,
+      "status": "valide"
+    }
+  ]
+}

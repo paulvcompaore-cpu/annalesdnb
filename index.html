@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnnalesDNB — Toutes les épreuves du Brevet 2020–2026</title>
+  <meta name="description" content="Catalogue gratuit des annales du Diplôme National du Brevet (DNB) 2020-2026 : sujets et corrigés en Français, Mathématiques, Histoire-Géographie EMC, SVT et Physique-Chimie. Filtrage par matière, année et disponibilité du corrigé.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/@codegouvfr/marianne@1.0.3/fonts.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/catalogue.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu-principal">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__brand" href="/">
+        <img class="site-header__logo" src="assets/img/logo-rf.svg" alt="" width="36" height="30">
+        <span class="site-header__title-group">
+          <span class="site-header__title">AnnalesDNB</span>
+          <span class="site-header__tagline">Toutes les épreuves du Brevet 2020–2026</span>
+        </span>
+      </a>
+      <nav class="site-header__nav" aria-label="Navigation principale">
+        <a href="index.html" aria-current="page">Catalogue</a>
+        <a href="programme.html">Programme 2027</a>
+        <a href="https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales" target="_blank" rel="noopener">Eduscol officiel ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="banner-reforme" class="alert-banner" role="note">
+    <div class="alert-banner__inner">
+      <span class="alert-banner__icon" aria-hidden="true">⚠️</span>
+      <p class="alert-banner__text">
+        Nathan passe le DNB en session 2027. À partir de 2027, les épreuves portent sur le
+        programme de la classe de 3e uniquement. Ces annales (2020-2026) restent pertinentes
+        pour s'entraîner, mais le périmètre programme était plus large.
+        <a href="programme.html">Consultez la section Programme 3e 2027 →</a>
+      </p>
+      <button type="button" class="alert-banner__close" id="banner-close" aria-label="Fermer ce message">✕</button>
+    </div>
+  </div>
+
+  <main id="contenu-principal">
+    <div class="layout">
+      <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters-panel">
+        <span aria-hidden="true">☰</span> Filtres
+      </button>
+
+      <aside class="filters" id="filters-panel">
+        <h2 class="filters__title">Filtres</h2>
+
+        <fieldset class="filters__group">
+          <legend>Matière</legend>
+          <label class="filter-check">
+            <input type="checkbox" name="matiere" value="francais" checked>
+            <span class="filter-check__dot" style="background:var(--color-francais)"></span> Français
+          </label>
+          <label class="filter-check">
+            <input type="checkbox" name="matiere" value="maths" checked>
+            <span class="filter-check__dot" style="background:var(--color-maths)"></span> Maths
+          </label>
+          <label class="filter-check">
+            <input type="checkbox" name="matiere" value="hg-emc" checked>
+            <span class="filter-check__dot" style="background:var(--color-hg-emc)"></span> Histoire-Géo EMC
+          </label>
+          <label class="filter-check">
+            <input type="checkbox" name="matiere" value="sciences" checked>
+            <span class="filter-check__dot" style="background:var(--color-sciences)"></span> Sciences (SVT / PC)
+          </label>
+        </fieldset>
+
+        <fieldset class="filters__group">
+          <legend>Année</legend>
+          <div class="filters__annees" id="filters-annees">
+            <!-- Généré dynamiquement par catalogue.js -->
+          </div>
+        </fieldset>
+
+        <fieldset class="filters__group">
+          <legend>Corrigé</legend>
+          <label class="filter-radio">
+            <input type="radio" name="corrige" value="tous" checked> Tous
+          </label>
+          <label class="filter-radio">
+            <input type="radio" name="corrige" value="avec"> Avec corrigé
+          </label>
+          <label class="filter-radio">
+            <input type="radio" name="corrige" value="sans"> Sans corrigé
+          </label>
+        </fieldset>
+
+        <fieldset class="filters__group">
+          <legend>Tri</legend>
+          <select id="filter-tri">
+            <option value="annee_desc">Plus récent d'abord</option>
+            <option value="annee_asc">Plus ancien d'abord</option>
+            <option value="matiere">Par matière</option>
+          </select>
+        </fieldset>
+
+        <button type="button" class="btn btn--secondary" id="filters-reset">Réinitialiser les filtres</button>
+      </aside>
+
+      <section class="catalogue" aria-label="Catalogue des annales">
+        <div class="catalogue__toolbar">
+          <label class="search-field">
+            <span class="visually-hidden">Rechercher une épreuve</span>
+            <input type="search" id="search-input" placeholder="Rechercher (matière, année, session...)">
+          </label>
+          <p class="catalogue__counter" id="results-counter" aria-live="polite">Chargement…</p>
+        </div>
+
+        <div class="cards-grid" id="cards-grid">
+          <!-- Cards générées par catalogue.js -->
+        </div>
+
+        <p class="empty-state" id="empty-state" hidden>Aucun résultat pour cette recherche.</p>
+      </section>
+    </div>
+  </main>
+
+  <div class="modal" id="signalement-modal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="signalement-title">
+      <h2 id="signalement-title">🚩 Signaler un lien cassé</h2>
+      <p>Quel lien est cassé ?</p>
+      <ul class="modal__links" id="signalement-links"></ul>
+      <div class="modal__actions">
+        <button type="button" class="btn btn--secondary" data-close-modal>Annuler</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>Site non officiel. Sources : APMEP, PrépaDNB, Académies, L'Étudiant.</p>
+      <p>Pour les sources officielles : <a href="https://eduscol.education.gouv.fr" target="_blank" rel="noopener">eduscol.education.gouv.fr</a></p>
+      <p><a href="mailto:paulv.compaore@gmail.com?subject=Signalement%20AnnalesDNB">Signalement général</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/signalement.js"></script>
+  <script type="module" src="assets/js/catalogue.js"></script>
+</body>
+</html>
