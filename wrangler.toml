@@ -1,0 +1,7 @@
+name = "annalesdnb"
+pages_build_output_dir = "."
+compatibility_date = "2026-08-16"
+
+# Compte Cloudflare : paulv.compaore@gmail.com
+# ID : 72526defb4d8a503b6f21c5263e9775a
+# Auth : OAuth Wrangler (session locale)
