@@ -2,7 +2,7 @@
 
 :root {
   /* Couleurs principales */
-  --color-marine:       #003189; /* fond des éléments de marque (header/footer/boutons) — fixe dans les deux thèmes */
+  --color-marine:       #003189; /* fond des éléments de marque (header/footer/boutons) — bascule en sombre */
   --color-marine-light: #1a4aad;
   --color-marine-dark:  #001f5e;
   --color-link:         #003189; /* texte de lien sur le fond de page — bascule en sombre */
@@ -70,6 +70,9 @@
    localStorage par assets/js/theme.js). */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    --color-marine:       #0a1428;
+    --color-marine-light: #1c2b4d;
+    --color-marine-dark:  #05080f;
     --color-link:         #93b0ff;
     --color-link-hover:   #b8cdff;
     --color-gold:         #d9bb6b;
@@ -101,6 +104,9 @@
   }
 }
 :root[data-theme="dark"] {
+  --color-marine:       #0a1428;
+  --color-marine-light: #1c2b4d;
+  --color-marine-dark:  #05080f;
   --color-link:         #93b0ff;
   --color-link-hover:   #b8cdff;
   --color-gold:         #d9bb6b;
