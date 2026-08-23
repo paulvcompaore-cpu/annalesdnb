@@ -2,6 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('annalesdnb-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page introuvable — AnnalesDNB</title>
   <link rel="stylesheet" href="assets/css/main.css">
@@ -31,6 +39,9 @@
           <span class="site-header__tagline">Toutes les épreuves du Brevet 2020–2026</span>
         </span>
       </a>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Passer en mode sombre">
+        <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+      </button>
     </div>
   </header>
 
@@ -48,5 +59,6 @@
   </footer>
 
   <script type="module" src="assets/js/chatbot.js"></script>
+  <script type="module" src="assets/js/theme.js"></script>
 </body>
 </html>

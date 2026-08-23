@@ -2,6 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('annalesdnb-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recommandations pour Nathan — AnnalesDNB</title>
   <meta name="description" content="Conseils concrets et sourcés pour bien préparer le DNB 2027 : programme, contrôle continu, sciences, épreuve orale.">
@@ -34,6 +42,9 @@
         <a href="changements-2027.html">Ce qui change en 2027</a>
         <a href="recommandations.html" aria-current="page">Recommandations pour Nathan</a>
         <a href="https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales" target="_blank" rel="noopener">Eduscol officiel ↗</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Passer en mode sombre">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -73,5 +84,6 @@
 
   <script type="module" src="assets/js/recommandations.js"></script>
   <script type="module" src="assets/js/chatbot.js"></script>
+  <script type="module" src="assets/js/theme.js"></script>
 </body>
 </html>

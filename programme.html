@@ -2,6 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('annalesdnb-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Programme 3e DNB 2027 — AnnalesDNB</title>
   <meta name="description" content="Périmètre officiel du DNB 2027 par matière : Français, Mathématiques, Histoire-Géographie EMC, Sciences. Notions du programme de 3e, structure des épreuves.">
@@ -33,6 +41,9 @@
         <a href="changements-2027.html">Ce qui change en 2027</a>
         <a href="recommandations.html">Recommandations pour Nathan</a>
         <a href="https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales" target="_blank" rel="noopener">Eduscol officiel ↗</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Passer en mode sombre">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -67,5 +78,6 @@
 
   <script type="module" src="assets/js/programme.js"></script>
   <script type="module" src="assets/js/chatbot.js"></script>
+  <script type="module" src="assets/js/theme.js"></script>
 </body>
 </html>

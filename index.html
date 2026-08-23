@@ -2,6 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('annalesdnb-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AnnalesDNB — Toutes les épreuves du Brevet 2020–2026</title>
   <meta name="description" content="Catalogue gratuit des annales du Diplôme National du Brevet (DNB) 2020-2026 : sujets et corrigés en Français, Mathématiques, Histoire-Géographie EMC, SVT et Physique-Chimie. Filtrage par matière, année et disponibilité du corrigé.">
@@ -33,6 +41,9 @@
         <a href="changements-2027.html">Ce qui change en 2027</a>
         <a href="recommandations.html">Recommandations pour Nathan</a>
         <a href="https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales" target="_blank" rel="noopener">Eduscol officiel ↗</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Passer en mode sombre">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -41,7 +52,7 @@
     <div class="alert-banner__inner">
       <span class="alert-banner__icon" aria-hidden="true">⚠️</span>
       <p class="alert-banner__text">
-        Nathan passe le DNB en session 2027. À partir de 2027, les épreuves portent sur le
+        À partir de 2027, les épreuves portent sur le
         programme de la classe de 3e uniquement. Ces annales (2020-2026) restent pertinentes
         pour s'entraîner, mais le périmètre programme était plus large.
         <a href="programme.html">Consultez la section Programme 3e 2027 →</a>
@@ -152,5 +163,6 @@
   <script type="module" src="assets/js/signalement.js"></script>
   <script type="module" src="assets/js/catalogue.js"></script>
   <script type="module" src="assets/js/chatbot.js"></script>
+  <script type="module" src="assets/js/theme.js"></script>
 </body>
 </html>

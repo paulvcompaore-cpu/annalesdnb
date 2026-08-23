@@ -18,7 +18,7 @@
   overflow-x: auto;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  background: var(--color-white);
+  background: var(--color-surface);
 }
 .reforme-table {
   width: 100%;
@@ -50,13 +50,13 @@
   margin-left: var(--space-2);
   white-space: nowrap;
 }
-.reforme-badge--ok { background: #E4F3E9; color: var(--color-success); }
-.reforme-badge--warn { background: #FCEFDA; color: var(--color-warning); }
+.reforme-badge--ok { background: var(--color-success-bg); color: var(--color-success); }
+.reforme-badge--warn { background: var(--color-warning-bg); color: var(--color-warning); }
 .reforme-badge--neutral { background: var(--color-bg-alt); color: var(--color-text-muted); }
-.reforme-badge--info { background: #E9F0FB; color: var(--color-info); }
+.reforme-badge--info { background: var(--color-info-bg); color: var(--color-info); }
 
 .reforme-matiere-card {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-left-width: 4px;
   border-radius: var(--radius);
@@ -101,7 +101,7 @@
 }
 
 .reforme-callout {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
@@ -114,7 +114,7 @@
 }
 
 .reforme-recos {
-  background: var(--color-white);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   padding: var(--space-4) var(--space-4) var(--space-4) var(--space-8);
