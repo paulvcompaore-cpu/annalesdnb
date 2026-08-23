@@ -50,6 +50,7 @@ const reforme = {
     this.renderChapeau();
     this.renderTable();
     this.renderMatieres();
+    this.applyMatiereUrlParam();
     this.renderOralEtControleContinu();
     this.renderSourcesGenerales();
   },
@@ -85,22 +86,62 @@ const reforme = {
   },
 
   renderMatieres() {
-    const container = document.getElementById('reforme-matieres');
-    if (!container || !this.data.matieres) return;
-    container.innerHTML = this.data.matieres
+    const tabsEl = document.getElementById('reforme-matieres-tabs');
+    const panelsEl = document.getElementById('reforme-matieres');
+    if (!tabsEl || !panelsEl || !this.data.matieres) return;
+
+    tabsEl.innerHTML = this.data.matieres
       .map(
-        (m) => `
-        <article class="reforme-matiere-card" style="border-left-color:${m.couleur || 'var(--color-marine)'}">
-          <h3>${m.emoji || ''} ${m.nom} ${renderStatutBadge(m.statut)}</h3>
-          <div class="reforme-matiere-grid">
-            <div><strong>Avant 2027</strong><p>${m.avant}</p></div>
-            <div><strong>Session 2027</strong><p>${m.apres_2027}</p></div>
-          </div>
-          ${renderLiens(m.epreuves_liens)}
-          ${renderSourceLinks(m.sources)}
-        </article>`
+        (m, i) => `
+        <button type="button" class="tabs__btn" role="tab"
+          id="reforme-tab-${m.id}" aria-controls="reforme-panel-${m.id}"
+          aria-selected="${i === 0}" style="--tab-color:${m.couleur || 'var(--color-marine)'}">
+          ${m.emoji || ''} ${m.nom}
+        </button>`
       )
       .join('');
+
+    panelsEl.innerHTML = this.data.matieres
+      .map(
+        (m, i) => `
+        <div class="tab-panel" role="tabpanel" id="reforme-panel-${m.id}" aria-labelledby="reforme-tab-${m.id}" data-matiere="${m.id}" ${i === 0 ? '' : 'hidden'}>
+          <article class="reforme-matiere-card" style="border-left-color:${m.couleur || 'var(--color-marine)'}">
+            <h3>${m.emoji || ''} ${m.nom} ${renderStatutBadge(m.statut)}</h3>
+            <div class="reforme-matiere-grid">
+              <div><strong>Avant 2027</strong><p>${m.avant}</p></div>
+              <div><strong>Session 2027</strong><p>${m.apres_2027}</p></div>
+            </div>
+            ${renderLiens(m.epreuves_liens)}
+            ${renderSourceLinks(m.sources)}
+          </article>
+        </div>`
+      )
+      .join('');
+
+    this.bindMatiereTabs();
+  },
+
+  bindMatiereTabs() {
+    document.querySelectorAll('#reforme-matieres-tabs .tabs__btn').forEach((tab) => {
+      tab.addEventListener('click', () => this.selectMatiereTab(tab.id.replace('reforme-tab-', '')));
+    });
+  },
+
+  selectMatiereTab(matiereId) {
+    document.querySelectorAll('#reforme-matieres-tabs .tabs__btn').forEach((t) => {
+      t.setAttribute('aria-selected', String(t.id === `reforme-tab-${matiereId}`));
+    });
+    document.querySelectorAll('#reforme-matieres .tab-panel').forEach((p) => {
+      p.hidden = p.dataset.matiere !== matiereId;
+    });
+  },
+
+  applyMatiereUrlParam() {
+    const params = new URLSearchParams(window.location.search);
+    const matiere = params.get('matiere');
+    if (matiere && this.data.matieres.some((m) => m.id === matiere)) {
+      this.selectMatiereTab(matiere);
+    }
   },
 
   renderOralEtControleContinu() {
