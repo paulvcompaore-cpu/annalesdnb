@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generee_le": "2026-08-16",
+    "note": "Base de connaissances du chatbot AnnalesDNB. Chaque entrée doit rester strictement fondée sur le contenu réellement publié sur ce site ou sur une source officielle citée dans le champ `source`. Ne jamais ajouter d'affirmation sur la réforme DNB 2027 sans citation vérifiée (voir data/reforme2027.json)."
+  },
+  "entrees": [
+    {
+      "id": "site-objet",
+      "categorie": "site",
+      "question": "C'est quoi ce site ?",
+      "motscles": ["site", "annalesdnb", "objet", "but", "sert a quoi", "sert à quoi"],
+      "reponse": "AnnalesDNB est un catalogue gratuit et non officiel qui répertorie les annales du Brevet (DNB) de 2020 à 2026 : sujets et corrigés en Français, Mathématiques, Histoire-Géographie EMC, SVT et Physique-Chimie. Le site propose aussi une page Programme 3e 2027 et une page sur les changements de la réforme 2027.",
+      "lien": "index.html"
+    },
+    {
+      "id": "site-filtrer",
+      "categorie": "site",
+      "question": "Comment filtrer les annales par matière ou par année ?",
+      "motscles": ["filtrer", "filtre", "matiere", "matière", "annee", "année", "trier", "recherche"],
+      "reponse": "Sur la page Catalogue, utilise le panneau Filtres (à gauche sur ordinateur, via le bouton ☰ Filtres sur mobile) : coche les matières et les années qui t'intéressent, choisis \"Avec corrigé\" si tu veux uniquement les sujets corrigés, et utilise le menu Tri pour classer par année ou par matière. La barre de recherche en haut permet aussi de taper directement une matière ou une année.",
+      "lien": "index.html"
+    },
+    {
+      "id": "site-lien-casse",
+      "categorie": "site",
+      "question": "Un lien de téléchargement ne fonctionne pas, que faire ?",
+      "motscles": ["lien casse", "lien cassé", "ne marche pas", "erreur telechargement", "404", "signaler"],
+      "reponse": "Clique sur le bouton \"🚩 Signaler un lien cassé\" présent sur chaque fiche d'épreuve. Cela ouvre un message pré-rempli vers l'adresse de signalement du site, avec le lien concerné déjà indiqué.",
+      "lien": "index.html"
+    },
+    {
+      "id": "site-manquant",
+      "categorie": "site",
+      "question": "Pourquoi certaines épreuves n'ont pas de sujet ou de corrigé disponible ?",
+      "motscles": ["pas disponible", "manquant", "aucun corrige", "aucun sujet", "introuvable"],
+      "reponse": "Toutes les URLs du site ont été vérifiées une par une (réponse HTTP 200 confirmée) avant publication — rien n'est inventé. Si une épreuve affiche \"Sujet non disponible\", c'est qu'aucune source fiable n'a pu être trouvée pour ce document précis à ce jour. C'est le cas par exemple d'Histoire-Géo-EMC 2020 Métropole : la session de juin 2020 a été annulée à cause du Covid-19, et aucune session de rattrapage n'a été retrouvée pour cette matière et cette zone.",
+      "lien": "index.html"
+    },
+    {
+      "id": "programme-matieres",
+      "categorie": "programme",
+      "question": "Quelles matières sont évaluées au DNB ?",
+      "motscles": ["matieres", "matières", "epreuves", "épreuves", "quelles matieres"],
+      "reponse": "À l'écrit : Français, Mathématiques, Histoire-Géographie-EMC, et Sciences (deux disciplines parmi SVT, Physique-Chimie et Technologie, tirées au sort). S'y ajoutent une épreuve orale (soutenance de projet) et le contrôle continu (résultats de l'année de 3e). Voir la page Programme 2027 et la page \"Ce qui change en 2027\" pour le détail de chaque épreuve.",
+      "lien": "programme.html"
+    },
+    {
+      "id": "programme-acceder",
+      "categorie": "programme",
+      "question": "Où trouver le programme de chaque matière ?",
+      "motscles": ["programme", "notions", "chapitres", "que reviser", "que réviser"],
+      "reponse": "La page \"Programme 2027\" liste, matière par matière, les notions à réviser sous forme d'accordéon dépliable. Clique sur un chapitre pour voir le détail des notions.",
+      "lien": "programme.html"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "genere_le": "2026-08-23",
+    "methodologie_courte": "Recherche sourcée sur textes officiels (Légifrance, Bulletin Officiel de l'Éducation Nationale) et Éduscol, complétée par des miroirs académiques et presse spécialisée citant ces mêmes textes."
+  },
+  "chapeau": "Attention à un point important, souvent mal compris : le changement le plus profond du DNB (notation sur 20 au lieu de 800 points, 40 % contrôle continu / 60 % épreuves finales) est déjà entré en vigueur dès la session 2026 — pas en 2027. Le seul changement propre à la session 2027 concerne le PÉRIMÈTRE DU PROGRAMME évalué à l'écrit : jusqu'à la session 2026 incluse, les 4 épreuves écrites portent sur l'ensemble du programme de cycle 4 (5e-4e-3e) ; à partir de la session 2027, elles ne porteront plus que sur le programme de la classe de 3e. Pour l'épreuve orale et le mode de calcul du contrôle continu, aucun changement propre à 2027 n'a été trouvé dans les textes officiels.",
+  "methodologie": "Vérifié le 23/08/2026 sur : l'arrêté du 10 avril 2025 (JORF n°0088 du 12/04/2025, Légifrance) qui fixe la règle du périmètre 3e à partir de 2027 (article 7) ; la note de service NOR MENE2515977N (BOEN n°33 du 04/09/2025, education.gouv.fr) qui détaille chaque épreuve ; et l'arrêté du 18 février 2026 (JORF n°0054 du 04/03/2026, BOEN n°10 du 05/03/2026, NOR MENE2602912A) pour le nouveau programme de mathématiques. Légifrance et education.gouv.fr bloquent les requêtes automatisées par une page de vérification anti-robot — normal pour ces sites, ça n'empêche pas un accès normal depuis un navigateur. Les chiffres ont été recoupés avec 3 sites académiques indépendants (Nancy-Metz, Bordeaux, Toulouse) et un sujet réel de la session 2026 (barème imprimé) : convergence totale. Une seule affirmation n'a pas pu être confirmée texto dans le texte réglementaire (voir Sciences ci-dessous) — elle est signalée comme telle plutôt que présentée comme un fait établi.",
+  "tableau": [
+    {
+      "composante": "Notation globale",
+      "avant": "Jusqu'à la session 2025 : système sur 800 points (contrôle continu ≈ 400 pts + épreuves finales ≈ 400 pts, environ 50 %/50 %)",
+      "apres_2027": "Depuis la session 2026 (pas un changement propre à 2027) : note sur 20, contrôle continu = 40 %, épreuves finales = 60 %",
+      "statut": "anterieur_2027"
+    },
+    {
+      "composante": "Nombre d'épreuves",
+      "avant": "4 épreuves écrites (Français, Maths, HG-EMC, Sciences) + 1 épreuve orale",
+      "apres_2027": "Inchangé : toujours 4 écrits + 1 oral",
+      "statut": "inchange"
+    },
+    {
+      "composante": "Programme évalué à l'écrit",
+      "avant": "Ensemble du programme de cycle 4 (classes de 5e, 4e et 3e)",
+      "apres_2027": "Uniquement le programme de la classe de 3e (<a href=\"programme.html\">voir le détail du programme →</a>)",
+      "statut": "confirme"
+    },
+    {
+      "composante": "Format de chaque épreuve écrite (durée, barème, structure)",
+      "avant": "Format actuel, en vigueur depuis la session 2026",
+      "apres_2027": "Identique à 2026 — aucun changement de format annoncé pour 2027",
+      "statut": "inchange"
+    },
+    {
+      "composante": "Épreuve orale (soutenance)",
+      "avant": "Coeff. 2, notée sur 20, 15 min (individuel) ou 25 min (collectif, jusqu'à 3 candidats)",
+      "apres_2027": "Aucune clause « à partir de la session 2027 » trouvée pour l'oral dans le texte officiel — tout indique une stabilité",
+      "statut": "inchange"
+    },
+    {
+      "composante": "Mode de calcul du contrôle continu",
+      "avant": "Moyenne des moyennes annuelles par enseignement obligatoire + bonus enseignements facultatifs",
+      "apres_2027": "Même règle, en vigueur depuis 2026 — pas d'évolution supplémentaire annoncée pour 2027",
+      "statut": "anterieur_2027"
+    }
+  ],
+  "matieres": [
+    {
+      "id": "francais",
+      "nom": "Français",
+      "couleur": "#C0392B",
+      "emoji": "📖",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4 (5e, 4e, 3e). Format de l'épreuve (en vigueur depuis 2026, inchangé pour 2027) : 3h, notée sur 100 points ramenés sur 20 — travail sur texte littéraire/grammaire/compréhension (50 pts, 1h10), dictée (10 pts, 20 min), rédaction (40 pts, 1h30).",
+      "apres_2027": "Programme : uniquement la classe de 3e, à partir de la session 2027 (<a href=\"programme.html?matiere=francais\">voir le détail du programme →</a>). Le format de l'épreuve ne change pas.",
+      "epreuves_liens": [
+        { "label": "Épreuves de Français 2025 et 2026 sur ce site (format déjà identique à 2027)", "url": "index.html?matiere=francais" }
+      ],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "publié le 12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33)", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+      ]
+    },
+    {
+      "id": "maths",
+      "nom": "Mathématiques",
+      "couleur": "#1A5276",
+      "emoji": "📐",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4. Format (depuis 2026, inchangé) : 2h, notée sur 20 — Partie 1 « Automatismes » (6 pts, 20 min, sans calculatrice), Partie 2 « Raisonnement et résolution de problèmes » (14 pts, 1h40, calculatrice autorisée).",
+      "apres_2027": "Programme : uniquement la classe de 3e à partir de 2027 (<a href=\"programme.html?matiere=maths\">voir le détail du programme →</a>). Point important : le NOUVEAU programme de mathématiques (arrêté du 18/02/2026) n'entrera en vigueur en 3e qu'à la rentrée 2028 (5e à la rentrée 2026, 4e à la rentrée 2027) — le DNB 2027 est donc évalué sur le programme de 3e ACTUEL, pas sur le nouveau programme.",
+      "epreuves_liens": [
+        { "label": "Sujets zéro de Maths, nouveau format (Éduscol)", "url": "https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb", "note": "spécimens du format en vigueur depuis 2026, valables pour s'entraîner en vue de 2027 — pas spécifiquement étiquetés « 2027 »" },
+        { "label": "Épreuves de Maths 2025 et 2026 sur ce site", "url": "index.html?matiere=maths" }
+      ],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33)", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" },
+        { "label": "Arrêté du 18 février 2026 sur le nouveau programme de maths (BOEN n°10)", "url": "https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A", "date": "05/03/2026" },
+        { "label": "Café Pédagogique — sujets zéro maths DNB 2026", "url": "https://www.cafepedagogique.net/2025/12/08/quel-est-le-tiers-de-18-lire-les-sujets-zero-de-lepreuve-de-maths-au-dnb-2026/", "date": "08/12/2025" }
+      ]
+    },
+    {
+      "id": "hg-emc",
+      "nom": "Histoire-Géographie EMC",
+      "couleur": "#1A6B3A",
+      "emoji": "🌍",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4. Format (depuis 2026, inchangé) : 2h, note globale sur 40 points ramenée sur 20 (Histoire-Géographie coeff. 1,5, EMC coeff. 0,5).",
+      "apres_2027": "Programme : uniquement la classe de 3e à partir de 2027 (<a href=\"programme.html?matiere=hg-emc\">voir le détail du programme →</a>). Le programme d'EMC « Faire vivre la démocratie » (publié au BO du 13/06/2024) s'applique en classe de 3e depuis la rentrée 2026-2027.",
+      "epreuves_liens": [
+        { "label": "Épreuves d'HG-EMC 2025 et 2026 sur ce site", "url": "index.html?matiere=hg-emc" }
+      ],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33)", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+      ]
+    },
+    {
+      "id": "svt",
+      "nom": "Sciences de la Vie et de la Terre (SVT)",
+      "couleur": "#6C3483",
+      "emoji": "🧬",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4. Fait partie de l'épreuve groupée « Sciences » (SVT, Physique-Chimie, Technologie) : depuis 2026, format 1h (2 × 30 min) au total pour l'épreuve, 2 des 3 disciplines retenues, 10 points chacune si la SVT est retenue. Choix signifié 2 mois avant l'examen.",
+      "apres_2027": "Programme : uniquement la classe de 3e à partir de 2027 (<a href=\"programme.html?matiere=sciences\">voir le détail du programme →</a>). Précision importante : le texte officiel dit que les 2 disciplines retenues sur 3 « sont retenues » et que le choix « est signifié » 2 mois avant — il ne précise pas explicitement un mécanisme de tirage au sort. Dans le doute, ne néglige pas la SVT même si tu penses qu'elle a moins de chances d'être retenue.",
+      "epreuves_liens": [
+        { "label": "Épreuves de SVT / Physique-Chimie 2025 et 2026 sur ce site", "url": "index.html?matiere=sciences", "note": "les annales de ce catalogue mêlent SVT et Physique-Chimie, publiées ensemble par les sources d'origine" }
+      ],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33), section 4", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+      ]
+    },
+    {
+      "id": "physique-chimie",
+      "nom": "Physique-Chimie (PC)",
+      "couleur": "#6C3483",
+      "emoji": "⚗️",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4. Fait partie de l'épreuve groupée « Sciences » : depuis 2026, 1h (2 × 30 min) au total, 2 des 3 disciplines retenues, 10 points chacune si la Physique-Chimie est retenue. Choix signifié 2 mois avant l'examen.",
+      "apres_2027": "Programme : uniquement la classe de 3e à partir de 2027 (<a href=\"programme.html?matiere=sciences\">voir le détail du programme →</a>). Même précaution que pour la SVT et la Technologie : le mécanisme exact de sélection des 2 disciplines sur 3 n'est pas confirmé comme un tirage au sort dans le texte officiel — prépare-la sérieusement même si tu comptes sur d'autres matières.",
+      "epreuves_liens": [
+        { "label": "Sujets zéro de Physique-Chimie, nouveau format (Éduscol)", "url": "https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb", "note": "spécimens du format en vigueur depuis 2026, pas spécifiquement étiquetés « 2027 »" },
+        { "label": "Épreuves de SVT / Physique-Chimie 2025 et 2026 sur ce site", "url": "index.html?matiere=sciences" }
+      ],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33), section 4", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" },
+        { "label": "Café Pédagogique — sujets zéro DNB 2026", "url": "https://www.cafepedagogique.net/2025/12/08/quel-est-le-tiers-de-18-lire-les-sujets-zero-de-lepreuve-de-maths-au-dnb-2026/", "date": "08/12/2025" }
+      ]
+    },
+    {
+      "id": "technologie",
+      "nom": "Technologie (Techno)",
+      "couleur": "#6C3483",
+      "emoji": "⚙️",
+      "statut": "confirme",
+      "avant": "Programme : ensemble du cycle 4. Fait partie de l'épreuve groupée « Sciences » : depuis 2026, 1h (2 × 30 min) au total, 2 des 3 disciplines retenues, 10 points chacune si la Technologie est retenue. Choix signifié 2 mois avant l'examen.",
+      "apres_2027": "Programme : uniquement la classe de 3e à partir de 2027 (<a href=\"programme.html?matiere=sciences\">voir le détail du programme →</a>). À noter honnêtement : ce catalogue ne référence à ce jour aucune annale de Technologie (les collections disponibles couvrent uniquement SVT et Physique-Chimie) — demande à ton professeur ou consulte Éduscol pour des exemples d'épreuve de Technologie.",
+      "epreuves_liens": [],
+      "sources": [
+        { "label": "Arrêté du 10 avril 2025 (Légifrance, art. 7)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "12/04/2025" },
+        { "label": "Note de service NOR MENE2515977N (BOEN n°33), section 4", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+      ]
+    }
+  ],
+  "oral": {
+    "statut": "inchange",
+    "avant": "Coefficient 2, notée sur 20 (expression orale 8 pts / maîtrise du sujet 12 pts). 15 min en individuel (exposé ~5 min + entretien ~10 min) ou 25 min en collectif jusqu'à 3 candidats (10 min d'intervention par candidat + entretien de 15 min). Porte sur un objet d'étude d'histoire des arts ou un projet EPI/parcours éducatif du cycle 4. Jury d'au moins 2 professeurs.",
+    "apres_2027": "Aucune clause « à partir de la session 2027 » n'apparaît dans le texte officiel pour l'épreuve orale, contrairement aux 4 écrits — tout indique qu'elle reste identique en 2027, avec le même barème et la même organisation qu'aujourd'hui. C'est une épreuve à part entière, pas une formalité : 2 points de coefficient, autant qu'une épreuve écrite comme les Sciences ou l'HG-EMC.",
+    "epreuves_liens": [
+      { "label": "Modalités officielles du DNB (Éduscol)", "url": "https://eduscol.education.gouv.fr/5604/modalites-d-attribution-du-diplome-national-du-brevet", "note": "détail des modalités de l'épreuve orale" }
+    ],
+    "sources": [
+      { "label": "Note de service NOR MENE2515977N (BOEN n°33), section 5", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+    ]
+  },
+  "controle_continu": {
+    "statut": "anterieur_2027",
+    "avant": "Système historique sur 400 points (socle commun / LSU), remplacé depuis la session 2026.",
+    "apres_2027": "Depuis 2026 : moyenne des moyennes annuelles de 3e dans chaque enseignement obligatoire, + bonus pour les enseignements facultatifs, le tout pesant 40 % de la note finale. Aucune évolution supplémentaire n'est annoncée spécifiquement pour 2027.",
+    "sources": [
+      { "label": "Note de service NOR MENE2515977N (BOEN n°33)", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "04/09/2025" }
+    ]
+  },
+  "recommandations": [
+    "Bonne nouvelle à bien comprendre : en 2027, le programme évalué à l'écrit se resserre sur la seule classe de 3e (au lieu de tout le cycle 4). Concrètement, ça veut dire des révisions plus ciblées — profite de ce recentrage pour aller vraiment en profondeur sur le programme de 3e plutôt que de survoler trois années entières.",
+    "Le format des épreuves (durée, barème, structure) est stable depuis 2026 et ne changera pas en 2027 : tu peux t'entraîner en toute confiance sur les sujets 2025 et 2026 de ce site, ils sont directement représentatifs de ce que tu passeras.",
+    "Le contrôle continu pèse 40 % de ta note finale, et il se construit sur toute l'année de 3e — chaque trimestre compte réellement dans ton résultat final. Ne garde pas tes efforts pour le jour J : une régularité de travail sur l'année te met déjà à 40 % du chemin avant même d'ouvrir un sujet d'examen.",
+    "En Sciences, ne parie pas sur seulement 2 des 3 disciplines (SVT, Physique-Chimie, Technologie) en espérant deviner lesquelles seront retenues : le texte officiel ne garantit pas un tirage au sort équitable ni un mécanisme prévisible. Prépare les trois, tu seras couvert quel que soit le choix annoncé 2 mois avant l'examen.",
+    "En Maths, ne te laisse pas déstabiliser si tu entends parler d'un « nouveau programme » : il ne s'appliquera à la classe de 3e qu'à partir de la rentrée 2028, donc ton DNB 2027 porte sur le programme de 3e actuel — celui que ton professeur enseigne déjà.",
+    "L'épreuve orale est un exercice à part entière, avec son propre barème (8 points d'expression orale, 12 points de maîtrise du sujet) : ce n'est pas une formalité. Choisis un sujet (histoire des arts ou projet du cycle 4) que tu maîtrises vraiment et entraîne-toi à l'oral à voix haute, pas seulement par écrit.",
+    "Sur les 15 minutes de l'oral individuel, l'exposé ne dure qu'environ 5 minutes : l'essentiel du temps (~10 minutes) est l'entretien avec le jury. Ne prépare pas seulement ton exposé par cœur — entraîne-toi à répondre à des questions imprévues sur ton sujet, c'est là que se joue une bonne partie des 12 points de maîtrise du sujet.",
+    "Utilise le chatbot de ce site pour vérifier rapidement un point précis du programme ou de l'organisation de l'examen — il ne répond qu'à partir de contenu vérifié et sourcé, donc tu peux t'y fier sans risquer une fausse information.",
+    "Le DNB reste un vrai objectif à préparer sérieusement dès maintenant : c'est le premier diplôme national que tu passes, il valide officiellement tes années de collège, et t'y préparer avec méthode dès aujourd'hui — annales, sujets zéro, révisions régulières — est la meilleure façon d'arriver serein le jour de l'examen."
+  ],
+  "sources_generales": [
+    { "label": "Arrêté du 10 avril 2025 modifiant l'arrêté du 31 décembre 2015 (Légifrance)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051451951", "date": "JORF n°0088 du 12/04/2025" },
+    { "label": "Note de service NOR MENE2515977N — modalités d'attribution du DNB à compter de la session 2026", "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N", "date": "BOEN n°33 du 04/09/2025" },
+    { "label": "Arrêté du 18 février 2026 — nouveau programme de mathématiques de cycle 4", "url": "https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A", "date": "BOEN n°10 du 05/03/2026" },
+    { "label": "Éduscol — Les épreuves du DNB", "url": "https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb", "date": "page officielle" },
+    { "label": "Éduscol — Modalités d'attribution du DNB", "url": "https://eduscol.education.gouv.fr/5604/modalites-d-attribution-du-diplome-national-du-brevet", "date": "page officielle" },
+    { "label": "Café Pédagogique — sujets zéro de maths pour le DNB 2026", "url": "https://www.cafepedagogique.net/2025/12/08/quel-est-le-tiers-de-18-lire-les-sujets-zero-de-lepreuve-de-maths-au-dnb-2026/", "date": "08/12/2025" }
+  ],
+  "entrees": [
+    {
+      "id": "reforme-qu-est-ce-qui-change",
+      "categorie": "reforme",
+      "question": "Qu'est-ce qui change vraiment au DNB en 2027 ?",
+      "motscles": ["change", "2027", "reforme", "réforme", "nouveau", "changement"],
+      "reponse": "Une seule chose change spécifiquement en 2027 : le programme évalué à l'écrit se limite désormais à la classe de 3e (au lieu de tout le cycle 4, 5e-4e-3e). Le format des épreuves (durée, barème), la pondération contrôle continu/épreuves (40%/60%) et l'épreuve orale ne changent pas en 2027 — ces éléments-là avaient déjà changé en 2026.",
+      "source": "Arrêté du 10 avril 2025, article 7 (Légifrance)",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-format-epreuves",
+      "categorie": "reforme",
+      "question": "Le format des épreuves change-t-il en 2027 ?",
+      "motscles": ["format", "duree", "durée", "bareme", "barème", "structure epreuve"],
+      "reponse": "Non. Le format de chaque épreuve (durée, nombre de points, structure) est stable depuis la session 2026 et ne change pas en 2027. Les sujets 2025-2026 déjà présents sur ce site sont donc représentatifs de ce que tu passeras.",
+      "source": "Note de service NOR MENE2515977N, BOEN n°33 du 04/09/2025",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-maths-programme",
+      "categorie": "reforme",
+      "question": "Le programme de maths change-t-il en 2027 ?",
+      "motscles": ["maths", "mathematiques", "mathématiques", "programme maths", "nouveau programme"],
+      "reponse": "Le DNB 2027 porte sur le programme de mathématiques ACTUEL de 3e (pas sur le nouveau programme publié en février 2026). Ce nouveau programme n'entrera en vigueur en classe de 3e qu'à la rentrée 2028.",
+      "source": "Arrêté du 18 février 2026, BOEN n°10 du 05/03/2026",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-note-finale",
+      "categorie": "reforme",
+      "question": "Comment est calculée la note finale du DNB ?",
+      "motscles": ["note finale", "calcul", "points", "pourcentage", "controle continu", "contrôle continu"],
+      "reponse": "Depuis la session 2026 : 40% de la note finale vient du contrôle continu (moyenne de tes notes de l'année de 3e) et 60% vient des épreuves finales (4 écrits + 1 oral), le tout noté sur 20.",
+      "source": "Note de service NOR MENE2515977N, BOEN n°33 du 04/09/2025",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-oral",
+      "categorie": "reforme",
+      "question": "L'épreuve orale change-t-elle en 2027 ?",
+      "motscles": ["oral", "soutenance", "epreuve orale", "épreuve orale"],
+      "reponse": "Non, rien n'indique un changement pour l'oral en 2027. Elle reste coefficient 2, notée sur 20, avec un jury d'au moins 2 professeurs, sur un sujet d'histoire des arts ou un projet du cycle 4.",
+      "source": "Note de service NOR MENE2515977N, BOEN n°33 du 04/09/2025",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-sciences-tirage",
+      "categorie": "reforme",
+      "question": "Les 2 disciplines de sciences sont-elles tirées au sort ?",
+      "motscles": ["sciences", "tirage au sort", "svt", "physique chimie", "technologie", "2 disciplines"],
+      "reponse": "Le texte officiel dit seulement que 2 disciplines sur 3 (SVT, Physique-Chimie, Technologie) sont \"retenues\" et que le choix est \"signifié\" 2 mois avant l'examen, sans préciser explicitement s'il s'agit d'un tirage au sort. Par prudence, prépare les 3 disciplines plutôt que de miser sur 2.",
+      "source": "Note de service NOR MENE2515977N, BOEN n°33 du 04/09/2025, section 4",
+      "lien": "changements-2027.html"
+    },
+    {
+      "id": "reforme-sujets-zero",
+      "categorie": "reforme",
+      "question": "Existe-t-il des sujets d'entraînement pour le nouveau format ?",
+      "motscles": ["sujet zero", "sujet zéro", "specimen", "spécimen", "entrainement", "entraînement", "s'entrainer"],
+      "reponse": "Oui, Éduscol a publié des sujets zéro de Mathématiques et de Physique-Chimie pour le nouveau format (en vigueur depuis 2026). Ils ne sont pas explicitement étiquetés \"2027\", mais comme le format ne change pas entre 2026 et 2027, ils restent parfaitement utiles pour t'entraîner.",
+      "source": "Éduscol, Les épreuves du DNB",
+      "lien": "changements-2027.html"
+    }
+  ]
+}

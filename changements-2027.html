@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Programme 3e DNB 2027 — AnnalesDNB</title>
-  <meta name="description" content="Périmètre officiel du DNB 2027 par matière : Français, Mathématiques, Histoire-Géographie EMC, Sciences. Notions du programme de 3e, structure des épreuves.">
+  <title>Ce qui change en 2027 — AnnalesDNB</title>
+  <meta name="description" content="Comparatif sourcé des changements du DNB entre les sessions avant 2027 et la session 2027 : programme, structure des épreuves, oral, contrôle continu, matière par matière.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/programme.css">
+  <link rel="stylesheet" href="assets/css/reforme.css">
   <link rel="stylesheet" href="assets/css/chatbot.css">
 </head>
 <body>
@@ -29,8 +30,8 @@
       </a>
       <nav class="site-header__nav" aria-label="Navigation principale">
         <a href="index.html">Catalogue</a>
-        <a href="programme.html" aria-current="page">Programme 2027</a>
-        <a href="changements-2027.html">Ce qui change en 2027</a>
+        <a href="programme.html">Programme 2027</a>
+        <a href="changements-2027.html" aria-current="page">Ce qui change en 2027</a>
         <a href="https://eduscol.education.gouv.fr/5202/preparer-le-diplome-national-du-brevet-dnb-avec-les-sujets-des-annales" target="_blank" rel="noopener">Eduscol officiel ↗</a>
       </nav>
     </div>
@@ -38,21 +39,48 @@
 
   <main id="contenu-principal">
     <div class="programme-intro">
-      <h1>Programme 3e — Session DNB 2027</h1>
-      <div class="programme-intro__banner">
-        Ces annales (2020-2026) couvrent un périmètre programme plus large. Certaines notions
-        présentes dans les anciens sujets ne seront peut-être pas au programme de la session 2027,
-        qui porte uniquement sur le programme de la classe de 3e.
+      <h1>Le DNB session 2027 : ce qui change, ce qui ne change pas</h1>
+      <div class="programme-intro__banner" id="reforme-chapeau">
+        Chargement…
       </div>
+      <p class="reforme-methodologie" id="reforme-methodologie"></p>
     </div>
 
     <div class="programme-wrap">
-      <div class="tabs" role="tablist" aria-label="Matières" id="tabs">
-        <!-- Généré par programme.js -->
-      </div>
-      <div id="tab-panels">
-        <!-- Généré par programme.js -->
-      </div>
+      <section class="reforme-section" aria-labelledby="reforme-tableau-titre">
+        <h2 id="reforme-tableau-titre">Vue d'ensemble</h2>
+        <div class="reforme-table-wrap">
+          <table class="reforme-table" id="reforme-table">
+            <thead>
+              <tr><th>Composante</th><th>Avant 2027</th><th>Session 2027</th></tr>
+            </thead>
+            <tbody id="reforme-table-body">
+              <tr><td colspan="3">Chargement…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="reforme-section" aria-labelledby="reforme-matieres-titre">
+        <h2 id="reforme-matieres-titre">Matière par matière</h2>
+        <div id="reforme-matieres"></div>
+      </section>
+
+      <section class="reforme-section" aria-labelledby="reforme-oral-cc-titre">
+        <h2 id="reforme-oral-cc-titre">Oral et contrôle continu</h2>
+        <div id="reforme-oral"></div>
+        <div id="reforme-controle-continu"></div>
+      </section>
+
+      <section class="reforme-section" aria-labelledby="reforme-recos-titre">
+        <h2 id="reforme-recos-titre">Nos recommandations pour Nathan</h2>
+        <div id="reforme-recommandations"></div>
+      </section>
+
+      <section class="reforme-section" aria-labelledby="reforme-sources-titre">
+        <h2 id="reforme-sources-titre">Sources</h2>
+        <ul id="reforme-sources-generales"></ul>
+      </section>
     </div>
   </main>
 
@@ -64,7 +92,7 @@
     </div>
   </footer>
 
-  <script type="module" src="assets/js/programme.js"></script>
+  <script type="module" src="assets/js/reforme.js"></script>
   <script type="module" src="assets/js/chatbot.js"></script>
 </body>
 </html>
