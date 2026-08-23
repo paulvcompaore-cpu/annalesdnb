@@ -100,6 +100,19 @@
   border-top: 1px dashed var(--color-border);
 }
 
+.reforme-callout {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  text-align: center;
+}
+.reforme-callout p {
+  color: var(--color-text-muted);
+  max-width: 55ch;
+  margin: var(--space-2) auto var(--space-4);
+}
+
 .reforme-recos {
   background: var(--color-white);
   border: 1px solid var(--color-border);

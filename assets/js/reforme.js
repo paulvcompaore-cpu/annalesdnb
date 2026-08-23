@@ -51,7 +51,6 @@ const reforme = {
     this.renderTable();
     this.renderMatieres();
     this.renderOralEtControleContinu();
-    this.renderRecommandations();
     this.renderSourcesGenerales();
   },
 
@@ -132,12 +131,6 @@ const reforme = {
           ${renderSourceLinks(c.sources)}
         </article>`;
     }
-  },
-
-  renderRecommandations() {
-    const container = document.getElementById('reforme-recommandations');
-    if (!container || !this.data.recommandations) return;
-    container.innerHTML = `<ul class="reforme-recos">${this.data.recommandations.map((r) => `<li>${r}</li>`).join('')}</ul>`;
   },
 
   renderSourcesGenerales() {
